@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+
+<html lang="en">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title> CUDA-An awesome portfolio html </title>
+		<link rel="shortcut icon" href="resources/img/flag.png" type="image/x-icon">
+		<!--google font & google icon-->
+		<script src="https://kit.fontawesome.com/a5c36bad19.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="vendors/css/normalize.css">
+		<link rel="stylesheet" href="vendors/css/grid.css">
+		<link rel="stylesheet" href="vendors/css/animated.css">
+		<link rel="stylesheet" href="resources/style.css">
+		<link rel="stylesheet" href="responsive.css">
+	</head>
+
+	<body>
+	
+	
+	<!-- start header section  -->
+	
+	<header class="imagee" id="home">
+		<nav id="navbar">
+			<div class="row">
+				<a href="#home">
+					<img src="resources/img/logo.png" alt="cuda" class="logo">
+				</a>	
+					<ul class="main-nav">
+						<li> <a class="active" href="#home"> Home    </a> </li>
+						<li> <a href="#service"> service  </a> </li>
+						<li> <a href="#team"> team   </a> </li>
+						<li> <a href="#skill"> skill    </a> </li>
+						<li> <a href="#portfolio"> portfolio </a> </li>
+						<li> <a href="#testimonial">testimonial </a> </li>
+						<li> <a href="#contact">contact </a> </li>
+					</ul>
+					<div class="mobile-menu">
+						<span id="openNav"><i class="fas fa-bars"></i></span>
+						<div id="myNav" class="overlay">
+							<a href="javascript:void(0)"  id="closeNav" class="close-btn">&times;</a>
+							<div class="overlay-content">
+								<a onclick="closeN()" href="#home"> Home    </a>
+								<a onclick="closeN()" href="#service"> service  </a>
+								<a onclick="closeN()" href="#team"> team   </a>
+								<a onclick="closeN()" href="#skill"> skill    </a>
+								<a onclick="closeN()" href="#portfolio"> portfolio </a>
+								<a onclick="closeN()" href="#testimonial">testimonial </a>
+								<a onclick="closeN()" href="#contact">contact </a>
+							</div>
+						</div>
+					</div>
+			</div>
+		</nav>
+		
+		<div class=row>
+			<div class="hero-text-box">
+				<h1>Hi there! We are the new kids on the block and we build awesome websites and mobile apps. </h1>
+			       <a href="#contact" class="btn-btn-hero">work with us </a>
+			</div>
+		</div>
+	
+	</header>
+	
+	<!-- End header section-->
+	
+	<!-- start services section-->
+	
+	
+<section class="services-section clearfix js--services-section" id="service">
+
+	<div class="row">
+		<h2 class="service-h2">services we provide </h2>
+		<hr/>
+		<p class="little-description">We are working with both individuals and businesses from all over the
+		globe to create awesome websites and applications.</p>
+	</div>
+	<div class="row">
+		<div class="col span_1_of_4 box">
+			<img src="resources/img/flag.png" alt="flag" class="services-icon">
+			<h3>Branding </h3>
+			<p class="service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod . </p>
+		</div>	
+		
+		<div class="col span_1_of_4  box">
+			<img src="resources/img/pen.png" alt="pen" class="services-icon">
+			<h3>Design </h3>
+			<p class="service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+		</div>		
+			
+		<div class="col span_1_of_4 box">
+			<img src="resources/img/setting.png" alt="gears" class="services-icon">
+			<h3>Development </h3>
+			<p class="service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+		</div>	
+		
+		
+		<div class="col span_1_of_4  box">
+			<img src="resources/img/rocket.png" alt="rocket icon" class="services-icon">
+			<h3>Rocket Science </h3>
+			<p class="service-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. </p>
+		</div>	
+	</div>	
+</section>	
+	
+	<!-- End services section-->
+	
+			<!--start team section-->
+
+<section class="team-section clearfix" id="team">
+	<div class="row">
+		<h2 class="teamh2">meet our beautiful team </h2>
+		<hr/>
+		<p class="little-description">We are small team of designers and developers, who help brands with big ideas.</p>
+	</div>
+	<div class="row ">
+		<div class="col span_1_of_4 team-box">
+			<img src="resources/css/img/1.jpeg" alt="ANNE HATHAWAY" class="team-members">
+			<h3 class="members-name">ANNE HATHAWAY</h3>
+			<span class="role">CEO / Marketing Guru </span>
+			<p class="team-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+			incididunt ut labore et dolore magna aliqua.</p> 
+			<div class="social-link">
+				<ul>
+					<li> <a href="#"> <i class="fab fa-facebook-f"></i> </a></li>
+					<li> <a href="#"> <i class="fab fa-twitter"></i> </a></li>
+					<li> <a href="#"> <i class="fab fa-linkedin-in"></i> </a></li>
+					<li> <a href="#"> <i class="fas fa-envelope"></i> </a></li>
+				</ul>
+			</div>
+		</div>	
+		<div class="col span_1_of_4 team-box">
+			<img src="resources/css/img/2.jpeg" alt="KATE UPTON" class="team-members">
+			<h3 class="members-name">KATE UPTON</h3>
+			<span class="role">Cretive Drector</span>
+			<p class="team-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+			incididunt ut labore et dolore magna aliqua.</p> 
+			<div class="social-link">
+				<ul>
+					<li> <a href="#"> <i class="fab fa-facebook-f"></i> </a></li>
+					<li> <a href="#"> <i class="fab fa-twitter"></i> </a></li>
+					<li> <a href="#"> <i class="fab fa-linkedin-in"></i> </a></li>
+					<li> <a href="#"> <i class="fas fa-envelope"></i> </a></li>
+				</ul>
+			</div>
+		</div>
+		
+		
+		<div class="col span_1_of_4 team-box">
+			<img src="resources/css/img/3.jpeg" alt="OLIVIA WILDE" class="team-members">
+			<h3 class="members-name">OLIVIA WILDE</h3>
+			<span class="role">Lead designer </span>
+			<p class="team-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+			incididunt ut labore et dolore magna aliqua.</p> 
+			<div class="social-link">
+				<ul>
+					<li> <a href="#"> <i class="fab fa-facebook-f"></i> </a></li>
+					<li> <a href="#"> <i class="fab fa-twitter"></i> </a></li>
+					<li> <a href="#"> <i class="fab fa-linkedin-in"></i> </a></li>
+					<li> <a href="#"> <i class="fas fa-envelope"></i> </a></li>
+				</ul>
+			</div>
+		</div>
+				
+		<div class="col span_1_of_4 team-box">
+			<img src="resources/css/img/4.jpeg" alt="ASHLEY GREENE" class="team-members">
+			<h3 class="members-name">ASHLEY GREENE</h3>
+			<span class="role">SEO Developer </span>
+			<p class="team-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+			Lorem ipsum dolor sit, amet  ipsum.</p> 
+			<div class="social-link">
+				<ul>
+					<li> <a href="#"> <i class="fab fa-facebook-f"></i> </a></li>
+					<li> <a href="#"> <i class="fab fa-twitter"></i> </a></li>
+					<li> <a href="#"> <i class="fab fa-linkedin-in"></i> </a></li>
+					<li> <a href="#"> <i class="fas fa-envelope"></i> </a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</section>	
+	
+			<!--end team section-->
+	
+	
+			<!--start skill section-->
+
+<div class="skill-section clearfix" id="skill">
+
+	<div class="row">
+		<h2 class="skill-h2">we got skills!</h2>
+		<hr/>
+		<p class="little-description">I have skills, i am propesonal designer.I have 5 years of experience.My design very very expensive design.</p>
+	</div>
+
+	<div class="row">
+		<div class="col span_1_of_4 skill-box">
+			<svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+			  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+			  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+			  <text class="percentage" x="38%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+			</svg>
+			<h3 class="skill-h3">web design</h3>
+		</div>
+		
+		<div class="col span_1_of_4 skill-box">
+			<svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
+			  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+			  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+			  <text class="percentage" x="38%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+			</svg>
+			<h3 class="skill-h3">html/css</h3>
+		</div>
+		
+		<div class="col span_1_of_4 skill-box">
+			<svg class="radial-progress graphic-design" data-percentage="70" viewBox="0 0 80 80">
+			  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+			  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+			  <text class="percentage" x="38%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+			</svg>
+			<h3 class="skill-h3">graphic design</h3>
+		</div>
+		
+		<div class="col span_1_of_4 skill-box">
+			<svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
+			  <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+			  <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+			  <text class="percentage" x="38%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+			</svg>
+			<h3 class="skill-h3">ui/ux</h3>
+		</div>
+		
+	</div>
+</div>
+
+		<!--end skill section-->
+
+
+		<!--start portfolio section-->
+
+<section class="portfolio-section clearfix" id="portfolio">
+	<div class="row">
+		<h2 class=port-h2>our portfolio</h2>
+		<hr/>
+		<P class="little-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo fewgfewg werfwqa fafewr vel facilisis. </P>
+	</div>	
+    
+
+			
+		<div class="portfolio-filter" id="filters">
+			<button type="button" data-filter="*">all</button>
+			<button type="button" data-filter=".web">web</button>
+			<button type="button" data-filter=".apps">apps</button>
+			<button type="button" data-filter=".icons">icons</button>
+		</div>
+
+		<div class="row container grid">
+			<div class="portfolio-box-div">
+				<div class="element-item span_1_of_2 portfolio-box mix apps">
+					<img src="resources/img/Portfolio1.png" alt="portfolio1" class="portfolio-img">
+				</div>
+				<div class="element-item span_1_of_2 portfolio-box mix apps web">
+					<img src="resources/img/Portfolio2.png" alt="portfolio2" class="portfolio-img">
+				</div>
+			</div>
+			<div class="portfolio-box-div">
+				<div class="element-item span_1_of_2 portfolio-box mix icons web apps">
+					<img src="resources/img/Portfolio4.png" alt="portfolio4" class="portfolio-img">
+				</div>
+				<div class="element-item span_1_of_2 portfolio-box mix icons">
+					<img src="resources/img/Portfolio3.png" alt="portfolio3" class="portfolio-img">
+				</div>
+			</div>
+		</div>
+	
+
+	<div class="row">
+		<a href="#" class="btn-btn-hero load-more">load more projects</a>
+	</div>	
+
+</section>
+
+	<!--end portfolio section-->
+
+<!--start testimonial section-->
+
+<section class="testimonial-section clearfix" id="testimonial">
+	<div class="row">
+		<h2 class="testimonial-h2">what people say about as</h2>
+		<hr class="testimonial-hr"/>
+		<p class="little-description">Our clients love us!</p>
+	</div>	
+	<div class="row">
+		<div class="col span_1_of_2">
+			<div class="respone-testimonial-box testimonial-div">
+				<div class="testimonial-box">
+					<img src="resources/css/img/4.jpeg" alt="4" class="client-photo">
+					<div class="client-review">
+						<p>"Ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis." </p>
+						<h3 class="client-name">chanel iman</h3>
+						<span class="client-position">CIO of pinterest</span>
+					</div>
+				</div>
+			
+				<div class="testimonial-box">
+					<img src="resources/css/img/1.jpeg" alt="1" class="client-photo">
+					<div class="client-review">
+						<p>"Ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis." </p>
+						<h3 class="client-name">chanel iman</h3>
+						<span class="client-position">CIO of pinterest</span>
+					</div>
+				</div>
+
+			</div>
+			
+			<div class="respone-testimonial-box testimonial-div">
+				<div class="testimonial-box">
+					<img src="resources/css/img/2.jpeg" alt="2" class="client-photo">
+					<div class="client-review">
+						<p>"Ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis." </p>
+						<h3 class="client-name">chanel iman</h3>
+						<span class="client-position">CIO of pinterest</span>
+					</div>
+				</div>
+			
+				<div class="testimonial-box">
+					<img src="resources/css/img/3.jpeg" alt="3" class="client-photo">
+					<div class="client-review">
+						<p>"Ing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis." </p>
+						<h3 class="client-name">chanel iman</h3>
+						<span class="client-position">CIO of pinterest</span>
+					</div>
+				</div>		
+			</div>
+		</div>	
+	</div>
+</section>
+
+<!--end testimonial section-->
+
+
+<!--start contact section-->
+<section class="contact-section clearfix" id="contact">
+	<div class="row">
+		<h2 class="contact-h2">get in touch</h2>
+		<hr/>
+		<p class="little-description">1600 pennsylvenia ave NW,washington,DC 20500,UNITED STATES OF AMERICA,TEL(202) 456-1111
+		</p>
+	</div>
+	<form action="#" method="POST" class="row">
+		<div class="contact-input">
+			<input type="text" name="Name" placeholder="Your Name" class="span_1_of_2" required>
+			<input type="email" name="Email" placeholder="Email" class="span_1_of_2" required>
+		</div>
+		<div class="">
+			<textarea name="Message" id="textarea"
+			 cols="30"  placeholder="Your message" required></textarea>
+		</div>
+		<div>
+			<button class="send">send message</button>
+		</div>
+	</form>
+	
+</section>
+<!--end contact section-->
+
+<!-- start footer section-->
+
+<footer class="footer-section">
+	<div class="row">
+		<ul class="footer-nav">
+			<li> <a href="#">Facebook</a> </li>
+			<li> <a href="#">Twitter </a> </li>
+			<li> <a href="#"> Goggle+  </a> </li>
+			<li> <a href="#"> Linkedln </a> </li>
+			<li> <a href="#">Behance </a> </li>
+			<li> <a href="#">Dribbble </a> </li>
+			<li> <a href="#">GitHib </a> </li>
+		</ul>
+	</div>
+</footer>
+
+<!--end footer section-->		
+	
+
+
+
+						<!--js file-->
+
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+			
+			
+			<script src="vendors/js/html5shiv.min.js"></script>
+			<script src="vendors/js/respond.min.js"></script>
+			
+			<script src="vendors/js/animated.js"> </script>
+			<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+			
+			<script src="vendors/js/main.js"></script>
+			
+	</body>
+</html>
